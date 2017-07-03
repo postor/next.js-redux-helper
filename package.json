@@ -28,5 +28,7 @@
     "babel-runtime": "^6.23.0"
   },
   "dependencies": {
+    "redux": "^3.7.1",
+    "redux-thunk": "^2.2.0"
   }
 }

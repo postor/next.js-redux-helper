@@ -1,4 +1,4 @@
 node_modules
-dist
+dest
 /yarn.lock
 /example/.next
