@@ -28,8 +28,12 @@ export default (initStore) => (Page) => withRedux(initStore)(class Wrapper exten
   }
 
   render() {
-    var { pageInitialProps = {} } = this.props
-    return <Page {...pageInitialProps} />
+    const { pageInitialProps = {} } = this.props
+    var props = Object.assign(pageInitialProps,this.props)
+    delete props.pageInitialProps
+    delete props.storeState
+
+    return <Page {...props} />
   }
 })
 
