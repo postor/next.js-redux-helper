@@ -2,6 +2,8 @@
 
 make redux easier to work in next.js both server side and client side, support async and ssr | 让redux在next.js的服务端和浏览器端更容易使用，支持服务端渲染
 
+quick glance:
+
 [![quick glance](https://img.youtube.com/vi/i_01Tmg3fSY/0.jpg)](https://www.youtube.com/watch?v=i_01Tmg3fSY&list=PLM1v95K5B1ntVsYvNJIxgRPppngrO_X4s)
 
 ## basic | 基本使用
