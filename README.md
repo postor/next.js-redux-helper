@@ -1,9 +1,8 @@
 # next-redux-helper
 
-make redux easier to work in next.js both server side and client side, support ssr
+make redux easier to work in next.js both server side and client side, support async and ssr | 让redux在next.js的服务端和浏览器端更容易使用，支持服务端渲染
 
-让redux在next.js的服务端和浏览器端更容易使用，支持服务端渲染
-
+[![quick glance](https://img.youtube.com/vi/i_01Tmg3fSY/0.jpg)](https://www.youtube.com/watch?v=i_01Tmg3fSY&list=PLM1v95K5B1ntVsYvNJIxgRPppngrO_X4s)
 
 ## basic | 基本使用
 
@@ -18,9 +17,6 @@ export default reduxWrapper(connect(state=>state)(Page))
 
 ```
 
-demo http://nextjs.i18ntech.com/components/reduxhelper
-
-source: https://github.com/nextjs-boilerplate/components/blob/master/pages/components/reduxhelper.js
 
 ## async action | 异步事件
 
@@ -61,10 +57,6 @@ handleLogin() {
   }
 ```
 
-demo: http://nextjs.i18ntech.com/login
-
-source: https://github.com/nextjs-boilerplate/components/blob/master/tools/store/user.js
-
 ## ssr | 服务端渲染
 
 ```
@@ -77,9 +69,6 @@ static async getInitialProps(ctx) {
   }
 }
 ```
-demo: https://github.com/nextjs-boilerplate/next-express-redux-i18n
-
-source: https://github.com/nextjs-boilerplate/next-express-redux-i18n/blob/master/components/layout/wrapper.js
 
 ## with i18next
 
@@ -96,7 +85,3 @@ const FinalPage = reduxWrapper(i18nWrapper(Page))
 ```
 
 about i18n: https://github.com/nextjs-boilerplate/next-i18n-helper
-
-demo: https://github.com/nextjs-boilerplate/next-express-redux-i18n
-
-source: https://github.com/nextjs-boilerplate/next-express-redux-i18n/blob/master/components/layout/wrapper.js
